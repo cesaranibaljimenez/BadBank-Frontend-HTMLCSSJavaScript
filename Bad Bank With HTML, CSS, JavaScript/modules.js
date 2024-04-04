@@ -175,6 +175,8 @@ var loadAllData = function (){
     target.innerHTML=ui.allData;
 };
 
+defaultModule();
+
 
 
 
