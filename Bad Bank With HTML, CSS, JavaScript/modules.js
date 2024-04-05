@@ -10,10 +10,10 @@ ui.navigation = `
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#createAccount" onclick="LoadCreateAccount()" id="createAccount">Create Account</a>
+                <a class="nav-link" href="#createAccount" onclick="loadCreateAccount()" id="createAccount">Create Account</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" onclick="loading()" id="login">Login</a>
+                <a class="nav-link" href="#" onclick="loadLogin()" id="login">Login</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" onclick="loadDeposit()">Deposit</a>
@@ -63,7 +63,7 @@ ui.createAccount = `
         Password<br>
         <input type="password" class="form-control" id="password" placeholder="Enter password"><br>
         <button type="submit" id="submit" class="btn" onclick="create()">Create Account</button>
-        <div id='CreateStatus'></div>
+        <div id='createAccountStatus'></div>
     </div> 
 </div>
     `; 
