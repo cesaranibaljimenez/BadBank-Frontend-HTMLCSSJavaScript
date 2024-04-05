@@ -1,2 +1,2 @@
 # BadBankTier-Standaloneapp
-App de un banco con react standalone
+App de un banco usando HTML, CSS, JavaScript
